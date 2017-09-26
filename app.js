@@ -12,7 +12,7 @@ class App {
    }
 
    init(){
-      this.youtubeSearch("iPhone X");
+      this.youtubeSearch("Netflix-Narcos");
       this.setup();
    }
 
