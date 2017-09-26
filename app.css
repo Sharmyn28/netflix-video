@@ -218,3 +218,26 @@ html, body {
     color: #fafafa;
     cursor: pointer;
   }
+
+  /*my style*/
+  .netflix-logo {
+    width: 165px;
+    height: 40px;
+    vertical-align: middle;
+  }
+
+  #mainVideo{
+    height: 200px;
+  }
+
+  .pdt-25{
+    padding-top: 25px;
+  }
+
+  .pd-50{
+    padding: 0 50px;
+  }
+
+  b{
+    color: black;
+  }
