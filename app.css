@@ -222,7 +222,7 @@ html, body {
   /*my style*/
   .netflix-logo {
     width: 165px;
-    height: 40px;
+    height: 35px;
     vertical-align: middle;
   }
 
@@ -230,14 +230,36 @@ html, body {
     height: 200px;
   }
 
-  .pdt-25{
-    padding-top: 25px;
-  }
-
   .pd-50{
     padding: 0 50px;
   }
 
+  #mainVideo-details{
+    margin-top: 20%;
+    padding: 5% 8%;
+    background-color: #666;
+    border-radius: 10px;
+    margin-bottom: 20%;
+  }
+
+  @media (max-width: 768px){
+    #mainVideo-details{
+      margin-top: 10%;
+      padding: 5% 8%;
+      background-color: #666;
+      border-radius: 10px;
+      margin-bottom: 10%;
+    }
+  }
   b{
-    color: black;
+    color: #000;
+  }
+
+  .black-text{
+    color: #000;
+  }
+
+  .root{
+    padding: 10%;
+    margin: 5%;
   }
