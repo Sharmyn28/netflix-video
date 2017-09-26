@@ -17,15 +17,16 @@ class App {
    }
 
    setup(){
-      $('#search').keyup(function(e) {
+      $('#search').keyup((e)=> {
             if(e.which == 13) {
                   $(".root").empty();
                   $('#mainVideo').empty();
                   $('#mainVideo-details').empty();
-                  let search = $('#search').val();
-                  console.log(search);
-                  this.youtubeSearch(search);
             }
+            $("#search").click(()=>{
+                  $(".root").empty();
+                  this.youtubeSearch($("#search").val());
+            });
       });
    }
 
